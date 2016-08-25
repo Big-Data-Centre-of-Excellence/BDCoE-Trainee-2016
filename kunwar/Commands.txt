@@ -1,0 +1,13 @@
+Topic:linux commands
+code:
+pwd:present working directory
+ls:to list
+cd:change directory
+mkdir:to create directory
+ps:process
+cat: to create file
+tail:to show below lines
+head:to show upper lines
+touch:to create file
+rm:to delete
+more:to display
