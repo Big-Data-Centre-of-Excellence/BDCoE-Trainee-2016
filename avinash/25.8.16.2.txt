@@ -1,0 +1,12 @@
+commands:
+pwd
+ls
+cd
+mkdir
+clear
+cat
+top
+tail
+touch
+rm 
+ls
