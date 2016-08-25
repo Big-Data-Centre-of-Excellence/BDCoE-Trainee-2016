@@ -1,0 +1,11 @@
+ls
+pwd
+cd
+clear
+mkdir
+cat
+man
+rm
+touch
+tail
+head
