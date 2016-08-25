@@ -1,0 +1,20 @@
+cd ~/Documents/BDCoE-Trainee-2016
+
+//copy repository-link from your id
+
+git clone <your-profile-repository-link>
+
+
+//copy bdcoe-repository-path from BDCoE Organisation profile 
+
+git remote add upstream <bdcoe-repository-path>  // this is needed only first time 
+												 //when linking repository
+												// from local to bdcoe
+
+git add . --a
+
+git commit -m "mycommit"
+
+git push origin master
+
+//Create pull request from your id.
