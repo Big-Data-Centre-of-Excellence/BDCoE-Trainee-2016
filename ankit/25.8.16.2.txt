@@ -1,0 +1,18 @@
+Topic: Basic Linux Commands
+Commands:
+ls
+pwd
+cd
+mkdir
+clear
+cat
+more
+head
+tail
+touch
+rm
+rm-r
+rm-rf
+clear
+man
+top
