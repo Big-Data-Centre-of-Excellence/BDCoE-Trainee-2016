@@ -1,0 +1,13 @@
+Commands learnt
+ls
+cat
+cd
+mkdir
+clear
+man
+touch
+head
+tail
+rm
+ps
+more
