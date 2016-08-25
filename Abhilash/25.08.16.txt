@@ -1,0 +1,16 @@
+Commands-
+
+pwd
+ls
+cd
+mkdir
+clear
+cat
+man
+top
+more
+head
+tail
+rm
+ps
+touch
