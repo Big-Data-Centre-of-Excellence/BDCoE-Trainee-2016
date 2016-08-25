@@ -1,0 +1,13 @@
+Commands in Linux
+cat
+ls
+pwd
+cd
+mkdir
+clear
+cat
+tail
+head
+touch
+rm
+man
