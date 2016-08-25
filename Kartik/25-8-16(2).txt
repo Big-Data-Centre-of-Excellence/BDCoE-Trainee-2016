@@ -1,0 +1,11 @@
+Topic : Linux
+Commands : ls
+			cd
+			mkdir
+			touch
+			less
+			head
+			rm
+			man
+			tail
+Doubt : None
