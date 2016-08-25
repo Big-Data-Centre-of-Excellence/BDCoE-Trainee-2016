@@ -1,0 +1,13 @@
+pwd
+ls
+cd
+mkdir
+more
+tail
+head
+touch
+rm
+clear
+cat
+top
+ps
