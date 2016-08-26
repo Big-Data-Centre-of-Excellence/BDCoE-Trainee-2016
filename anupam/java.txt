@@ -7,5 +7,13 @@ multiple catch,nested try
 finally keyword
 throw ,throws keyword
 
-Source-javatpoint
+
+
+topic-big data intro
+3V's of big data-variety,variability,velocity
+big data technologies
+hadoop intro
+hadoop ecosystem(HDFS,Mapreduce,common,yarn)
+
+Source-javatpoint,SAS
 Doubts-none
