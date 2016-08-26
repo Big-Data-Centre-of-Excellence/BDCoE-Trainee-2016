@@ -1,0 +1,31 @@
+Topic: hadoop
+Source: wikipedia
+Description:
+   Hadoop or apache hadoop is a software made by Doung cutting and Mike Cafaralla.
+hadoop is an open source software or framework developed in java which
+ is used for distributed storage and distributed processing of very large set 
+of data on computer clusters.
+    Basically hadoop is very similar to real life handelling of things, just like
+we arrange our almirah which contains number of shelf's on which we arrange our
+books in one shelf, clothes on other shelf, documents on another one, while some 
+important ones in locker.
+here hadoop is our almirah, which is provides enviroment of arrangment or processing
+while differnt shelf's are number computers that form computer clusters
+    Why do we need a data processing and storing framework at all?
+Inspite we are having data handling souces like SQL etc, they fail at the part
+when the amount of data is too big. For example a database containg basic info
+of the citizens of the country, manipulation of such huge data can't be just done
+by normal platform,so hadoop provides a platform in which huge amount of data 
+can be broken in small segments and stored in computer clusters this makes 
+accesing of data easy as well as manipulation.
+
+The core of Apache Hadoop consists of a storage part, known as Hadoop Distributed 
+File System (HDFS), and a processing part called MapReduce.
+
+Hadoop Distributed File System (HDFS) – a distributed file-system that stores data 
+on commodity machines, providing very high aggregate bandwidth across the cluster
+
+Hadoop MapReduce – an implementation of the MapReduce programming model for large 
+scale data processing.
+
+Doubts: HDFS is only used for data storing?
