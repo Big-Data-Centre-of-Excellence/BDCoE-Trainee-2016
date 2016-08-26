@@ -1,0 +1,143 @@
+import javax.swing.*;
+import java.awt.*;
+
+
+/**
+ * Created by ANKIT GUPTA on 26-Aug-16.
+ */
+public class Project1 {
+    public static void main(String[] args) {
+        JFrame frame = new JFrame();
+        Dimension dim = new Dimension();
+        dim.setSize(800, 800);
+        frame.setDefaultCloseOperation(3);
+
+        JPanel panel = new JPanel();
+        panel.setPreferredSize(dim);
+        frame.add(panel);
+        frame.pack();
+
+        frame.setVisible(true);
+
+
+        try {
+            Thread.sleep(300);
+        } catch (InterruptedException e) {
+            e.printStackTrace();
+        }
+
+        Graphics graphics;
+
+        int x1 = 0, y1 = 0, xvel1 = 10, yvel1 = 10;
+        int x2 = 700, y2 = 0, xvel2 = -10, yvel2 = 10;
+        int x3 = 0, y3 = 700, xvel3 = 10, yvel3 = -10;
+        int x4 = 700, y4 = 700, xvel4 = -10, yvel4 = -10;
+        int arc1 = 270, arc2 = 270, arc3 = 270, arc4 = 270;
+        int a1 = 0, a2 = -90, a3 = 90, a4 = 180;
+        int a = a1, b = a2, c = a3, d = a4;
+        int w = a1, x = a2, y = a3, z = a4;
+        while (true) {
+            try {
+                Thread.sleep(50);
+            } catch (InterruptedException e) {
+                e.printStackTrace();
+            }
+
+            x1 = x1 + xvel1;
+            y1 = y1 + yvel1;
+
+            x2 = x2 + xvel2;
+            y2 = y2 + yvel2;
+
+            x3 = x3 + xvel3;
+            y3 = y3 + yvel3;
+
+            x4 = x4 + xvel4;
+            y4 = y4 + yvel4;
+
+            if (x1 + 100 == x2 || x3 + 100 == x4) {
+                a1 = d;
+                a2 = c;
+                a3 = b;
+                a4 = a;
+
+                xvel1 = -10;
+                xvel2 = 10;
+                xvel3 = -10;
+                xvel4 = 10;
+                yvel1 = -10;
+                yvel2 = -10;
+                yvel3 = 10;
+                yvel4 = 10;
+
+            }
+            if (x1 <= 0 && y1 <= 0) {
+                x1 = 0;
+                xvel1 = 10;
+                y1 = 0;
+                yvel1 = 10;
+                a1 = w;
+            }
+            if (x2 >= 700 && y2 <= 0) {
+                y2 = 0;
+                yvel2 = 10;
+                x2 = 700;
+                xvel2 = -10;
+                a2 = x;
+            }
+            if (x3 <= 0 && y3 >= 700) {
+                x3 = 0;
+                y3 = 700;
+                xvel3 = 10;
+                yvel3 = -10;
+                a3 = y;
+
+            }
+            if (x4 >= 700 && y4 >= 700) {
+                x4 = 700;
+                y4 = 700;
+                xvel4 = -10;
+                a4 = z;
+                yvel4 = -10;
+            }
+
+            graphics = panel.getGraphics();
+
+            graphics.clearRect(0, 0, 800, 800);
+            graphics.setColor(Color.red);
+            graphics.fillArc(x1, y1, 100, 100, a1, arc1);
+            graphics.setColor(Color.red);
+            graphics.fillArc(x2, y2, 100, 100, a2, arc2);
+            graphics.setColor(Color.red);
+            graphics.fillArc(x3, y3, 100, 100, a3, arc3);
+            graphics.setColor(Color.red);
+
+            graphics.fillArc(x4, y4, 100, 100, a4, arc4);
+
+            graphics.dispose();
+
+
+
+        }
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
