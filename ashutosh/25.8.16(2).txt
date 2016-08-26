@@ -1,0 +1,7 @@
+Topic: linuix basic commands
+codes:
+ls: tells us the list of all the files in the present directory
+cd: used to change the current directory to some desired one
+pwd: tells the present working directory
+mkdir: used to make new directory
+clear: to clear the screen
