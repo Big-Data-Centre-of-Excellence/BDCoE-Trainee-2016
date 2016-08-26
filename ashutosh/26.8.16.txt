@@ -22,10 +22,27 @@ accesing of data easy as well as manipulation.
 The core of Apache Hadoop consists of a storage part, known as Hadoop Distributed 
 File System (HDFS), and a processing part called MapReduce.
 
-Hadoop Distributed File System (HDFS) – a distributed file-system that stores data 
+Hadoop Distributed File System (HDFS) â€“ a distributed file-system that stores data 
 on commodity machines, providing very high aggregate bandwidth across the cluster
 
-Hadoop MapReduce – an implementation of the MapReduce programming model for large 
+Hadoop MapReduce â€“ an implementation of the MapReduce programming model for large 
 scale data processing.
 
 Doubts: HDFS is only used for data storing?
+
+
+******************
+Question : HDFS is only used for data storing?
+Answer : HDFS is Hadoop Distributed File System. And as you learn that "it stores data 
+on commodity machines, providing very high aggregate bandwidth across the cluster" this is because is splits the data into the blocks , sends to the different commodity hardware and then each blocks are processed by the different computer where it stored.It provides a parallel processing, which makes it more efficent. 
+
+In the organization not only HDFS is used for the data storing. They use different databases like oracle,ms-sql etc. But for large amount of data these takes more time to process the query. So the HDFS come into the play. For Big Data Technolgy we only use HDFS for fast processing.
+******************
+
+*****************
+Your Home Work : search on google
+
+Question 1 : What is Block Size?
+Question 2 : What is the block size of computer?
+
+*****************
