@@ -5,3 +5,12 @@ cd: used to change the current directory to some desired one
 pwd: tells the present working directory
 mkdir: used to make new directory
 clear: to clear the screen
+man <command> : it is used to read manual for the particular command
+cat > file name: to kae a file
+cat/more filename: this command is used to view the file 
+ctrl+d : thi sius used to save the text in file
+tail filename: it shows the last ten lines of the file
+head filename: this is used to first 10 lines of the file
+touch filename: this  is also used to make the file
+rem filename: this is used to remove the directory
+
