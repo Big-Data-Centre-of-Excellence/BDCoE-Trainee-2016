@@ -1,0 +1,11 @@
+1.ls:                           list all the files in current directory.
+2.pwd:                       present working directory.
+3.cd:                          change directory.
+4.clear:                      to clear the screen.
+5.mkdir:                     make directory.
+6.cat:                          to view or edit.
+7.man <command>:  to read manual for a particular command.
+8.rm:                          remove file.
+9.touch filename:      create file.
+10.tail filename:        display last 10 lines of the particular file.
+11.head filename:      display first 10 lines of a particular file.
