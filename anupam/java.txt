@@ -1,0 +1,11 @@
+Date-26/08/2016
+topic-Exceptions
+content-
+exception
+try,catch block
+multiple catch,nested try
+finally keyword
+throw ,throws keyword
+
+Source-javatpoint
+Doubts-none
