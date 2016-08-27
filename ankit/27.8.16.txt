@@ -1,0 +1,32 @@
+TOPIC: Some more linux commands
+COMMANDS:
+cp filename1 filename2: to copy filename1 into filename2
+ln -s file1 filelink: to make a soft link
+date: to see date
+cal: for calendar
+uptime: for time
+w:who are online
+whoami: tells through which user we are login
+finger user: tells all the information about user
+sudo apt-get install finger : to install finger user
+uname -a:to know info about user
+cat /proc/cpuinfo:info about cpu
+cat /proc/meminfo:memory info
+command --help:to know about command
+wc file1: to know about file length and no. of words and lines
+tar cf file1.tar file1:tomake zip file
+tar -xvf file1.tar:to unzip file
+gzip file1: to zip file and it is better way as it deletes uncompressed file and saves the memory
+gzip -d file1.gz: to unzip file by deleting compressed file
+ctrl+d:save and quit
+ctrl+z:to stop any process
+ctrl+c:to hold current command
+fg:to resume the process on terminal
+bg: to resume in background
+ctrl+u:for deleting whole line 
+ctrl+w:to delete last word of a file
+ctrl+r:to copy a line 
+!!:to repeat last command
+exit : to exit terminal
+wget link: to download
+DOUBT : none
