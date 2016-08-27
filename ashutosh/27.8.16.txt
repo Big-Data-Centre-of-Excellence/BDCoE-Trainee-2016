@@ -1,0 +1,20 @@
+TOpic:questions asked in lab
+Source: google
+Description:
+q1) how to rename a diretory in linuix?
+to rename a file we use mv comand
+Syntax: mv old_file_name new_file_name
+q2)how to make a hard link?
+to make hard link we use ln command
+Syntax:ln source link
+q3)how to make wifi hotspot using cmd prompt?
+to make hotspot we have to perform follwing steps
+1.type the command netsh wlan show drivers 
+2.verify the hosting network using yes
+3.Type netsh wlan set hostednetwork mode=allow ssid=Hotspotname key=password  
+This will create a Hotspot but it would be offline.
+4.Type netsh wlan start hostednetwork to start the hotspot created
+5.ask the clients to connect to your network by entering pasword
+6.Type netsh wlan show hostednetwork to check the hotspot status
+Doubts:
+none
