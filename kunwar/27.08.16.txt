@@ -1,0 +1,46 @@
+Topic:linux commands part-2,Introduction to Hadoop Ecosystem
+Code:
+cp file1 file2 :to copy file1 in file 2
+more <file-name>: to display file
+ln -s file1 file1link:to softlink
+date:to show date
+cal:to show calendar
+w:to show online users
+uptime:to show current time
+whoami:to show current user
+fingeruser:to show all information about user
+sudo apt-get <file-name>:to install any application
+uname -a:kernel information
+cat /proc/cpuinfo:to show cpu info
+cat /proc/meminfo:to show memory info
+man:manual
+<command> --help:command help
+wc:to count words in file
+tar cf file.tar file1:to compress file/path
+       or
+tar czf files.tar.gz files
+tar -xvf file1.tar: to decompress file
+gzip -d file1-to decompress .gz file
+ctrl+d:save&quit
+ctrl+c:to halt command
+fg:to show foreground process
+bg:to show background process
+ctrl+u:to erase whole line in file
+ctrl+z:to stop
+ctrl+w:to delete single word
+ctrl+r:to copy whole line
+!!:to repeat previous command
+wget <link>:to download file
+ifconfig:to show network adapters
+sudo add-apt-repository ppa:webupd8team/java:to install java
+sudo apt-get update:to update installed repository
+sudo apt-get install oracle-java8-installer:to start the java installer
+sudo chmod 777 /user/local:to give read,write,execute permissions to all files inside local directory
+vi:vi text editor
+vi <file-name>:to create new file 
+i:to insert
+w:to save
+wq:save&quit
+nano:nano text editor
+Link/source:bdcoe lab
+Doubt:none
