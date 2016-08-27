@@ -1,0 +1,28 @@
+Topic: Linux commands , basic hadoop concepts..
+
+Commands: date,
+cal,
+uptime,
+w,
+whoami,
+finger user,
+soft links,
+hard links,
+cp,
+mv,
+uname,
+cat > filename,
+cat /proc/cpuinfo,
+cat /proc/meminfo,
+touch,
+touch --help,
+tar cf file.tar filename,
+tar -xvf file.tar,
+tar czf file.tar.gz,
+gzip file,
+gzip -d file.gz,
+java installation..
+
+
+
+Doubts: NONE....
