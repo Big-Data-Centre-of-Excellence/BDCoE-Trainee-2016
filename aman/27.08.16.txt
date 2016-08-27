@@ -1,0 +1,70 @@
+Topic:Hackerrank(Conversion from AM/PM time format into military time format)
+problem:
+Input Format
+
+A single string containing a time in 12-hour clock format (i.e.hh:mm:ssAM  or hh:mm:ss PM ), where .
+01<=hh<=12
+Output Format
+
+Convert and print the given time in 24-hour format, where .00<=hh<=23
+
+Sample Input
+
+07:05:45PM
+Sample Output
+
+19:05:45
+
+Link:www.hackerrank.com
+
+Source code:
+
+#include <math.h>
+#include <stdio.h>
+#include <string.h>
+#include <stdlib.h>
+#include <assert.h>
+#include <limits.h>
+#include <stdbool.h>
+
+int main(){
+    char* time = (char *)malloc(10240 * sizeof(char));
+    scanf("%s",time);
+    int n,a;
+    char i;
+    n=strlen(time);
+    i=time[n-2];
+    if(i=='P'){
+        if(time[0]=='1'&&time[1]=='2')
+        {
+            
+        }
+        else
+        {
+            if(time[0]=='1')
+            {
+                time[0]='2';
+            }
+            else
+            {
+                time[0]='1';
+            }
+            a=time[1];
+            time[1]=a+2;
+        }
+    }
+    if(i=='A')
+    {
+        if(time[0]=='1'&&time[1]=='2')
+        {
+            time[0]='0';
+            time[1]='0';
+        }
+    }
+        
+    for(i=0;i<=n-3;i++)
+    printf("%c",time[i]);
+    return 0;
+}
+
+Doubts:none
