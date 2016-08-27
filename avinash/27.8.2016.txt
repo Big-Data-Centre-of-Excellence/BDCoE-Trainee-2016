@@ -1,0 +1,22 @@
+TOPIC: some more commands
+COMMANDS:
+cp filename1 filename2: copy filename1 into filename2
+in -s filename filelink:to make a soft link
+date: to see date
+cal:for calendar
+uptime: for time
+w:who are online
+whoami: tell trough which user we are login
+finger user:tell all the information about user
+uname -a:to know info about user
+cat /proc/cpuinfo:to know about cpu
+cat /proc/meminfo:to know about memory
+sudo apt-get install finger:to instal finger
+command --help:to know about commands
+wc file1:to know about file length &no of words &lines
+tar cf  file1.tar file1:to make zip file
+tar -xvf file1.tar:to unzip file
+exit:to exit terminal
+ctrl+R:to copy a line
+DOUBT:NONE
+
