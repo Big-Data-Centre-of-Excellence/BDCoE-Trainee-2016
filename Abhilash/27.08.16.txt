@@ -1,0 +1,15 @@
+More commands
+cp
+date
+cal
+uptime
+w
+whoami
+finger user
+uname -a
+--help
+wc
+gzip
+gzip -d
+
+Softlinks and Hardlinks
