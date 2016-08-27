@@ -1,4 +1,0 @@
-topic: github
-code:/*......*/
-link: github.com
-doubt:none
