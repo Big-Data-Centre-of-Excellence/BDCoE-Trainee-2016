@@ -1,0 +1,22 @@
+Topics : Linux
+		Soft/Hard Links
+		Java Installation
+		Hadoop Concepts
+Commands : 
+				ln
+				date
+				cal
+				w
+				uptime
+				whoami
+				top
+				tar
+				gzip
+				wc
+				sudo
+				chmod
+				ifconfig
+				cat
+				nano
+				vi
+Doubt : None.
