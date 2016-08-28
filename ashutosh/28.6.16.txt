@@ -23,4 +23,25 @@ such as x11 here x is the name given because for any ambigous thing we assume th
 and 11 is the version. Function of x11 is to provide gui by the use of mouse and keyboard
 
 Doubts:
-why there is no refresh option in linuix?
+why there is no refresh option in linux?
+
+************************
+You can add refresh botton option in linux.You have to run some command which is given in the below link
+Link: http://askubuntu.com/questions/343719/how-to-get-a-refresh-right-click-action
+
+And you can : Press F5 to refresh
+
+************************
+
+***(Search on google)
+Question 1 : What does refresh option do in widows/linux ?
+
+These sites are best for technical knowledge:
+1. stackoverflow.com
+2. askubuntu.com
+3. Quora.com
+4. All stackexchange.com sites
+
+***
+
+
