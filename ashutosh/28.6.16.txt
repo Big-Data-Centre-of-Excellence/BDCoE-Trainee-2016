@@ -1,0 +1,26 @@
+Topic: Linuix operating system
+Source:wikipedia
+Description: 
+  Before knowing about any operating system, basic of operating syatem should be
+clear. An operating system is a system software which enables or provides a platform
+for development of other softwares.
+  Linuix o/s is an operating system which is developed under free and open source 
+enviroment.linuix is a unix like operating system,but there is difference.Kernal 
+of unix is written in assembly language where as linuix it is written in c language.
+Some features of linuix o/s:
+1) It makes our system free of hardware dependency.
+2) It is an open source freely availabe, hence there is immune enviroment for development.
+3) It provides multi user enviroment.
+4) Multiple programs can run at the same time, on the same system.
+5) It provides a secure background using authentication.
+6) Linuix has its own resporatory from which it can download and install any number
+   of softwares, using commands.
+7) Linuix system is hierarchical hence it is almost free from virus, as if a malware
+   function enters the system, due to so much hierarchi malware function ceases.
+8)  enviroment is stable, which means it can go an working easily without crashing      
+    Linuix o/s is made gui by enabling some softwares of windows running on linuix
+such as x11 here x is the name given because for any ambigous thing we assume thing to be x,
+and 11 is the version. Function of x11 is to provide gui by the use of mouse and keyboard
+
+Doubts:
+why there is no refresh option in linuix?
