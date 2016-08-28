@@ -1,0 +1,24 @@
+Topic:Creating hotspot in windows,Linux Commands part-3
+Code:
+netsh wlan show drivers : to check whether network card supports hosting or not
+netsh wlan set hostednetwork ssid=<wifi name> key=<password> : to set hosted network
+netsh wlan start hostednetwork : to start hotspot
+netsh wlan stop hostednetwork : to stop hotspot
+netsh wlan show hostednetwork : to show the status of hotspot
+netsh wlan show hostednetwork security : to show the password of hotspot
+
+Commands:
+rmdir : to remove directory
+cp <old-filename> <new-file name> : to rename file
+                 or
+mv <old-filename> <new-filename>
+shutdown -h : to shutdown system
+     or
+init 0
+adduser <user-name> : to add user
+passwd <user-name> : to change password of user
+ln <file-name> <hardlink-name> : to create hardlink
+
+
+link/source : wikihow.com,linux manual
+doubt : none
