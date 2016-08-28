@@ -15,3 +15,18 @@ if input is 10,20 30,40
 and it is asked for k=2
 output should be
 {10,20},{10,30},{10,40},{20,30},{20,40},{30,40}
+
+******************
+Hint:
+If n numbers and you have to find all possible combination of k numbers then you calculate on nCk for that.
+
+1. Calculate nCk and store the value in L
+2. Then use two nested for loop to print the desire output
+
+Go to this link for hint 
+http://www.geeksforgeeks.org/dynamic-programming-set-9-binomial-coefficient/
+http://www.geeksforgeeks.org/space-and-time-efficient-binomial-coefficient/
+https://en.wikipedia.org/wiki/Binomial_coefficient
+
+
+******************
