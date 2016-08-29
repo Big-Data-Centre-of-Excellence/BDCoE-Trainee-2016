@@ -1,0 +1,9 @@
+Topic -hotspot using cmd
+
+description=
+1-  netsh wlan start hostednetwork mode=allow ssid=anupam key=password
+2-netsh wlan start hosted network(for starting the hotspot)
+3-netsh wlan show hosted network
+4-netsh wlan stop hosted network(stops hotspot)
+
+doubts-none
