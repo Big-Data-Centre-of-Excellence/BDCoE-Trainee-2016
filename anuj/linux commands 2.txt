@@ -1,0 +1,17 @@
+date: shows date
+cal: shows calendar with current date
+uptime: time since computer was on
+w: shows who are logged in
+finger user: shows all information about the user
+cat /proc/cpuinfo: information about the cpu
+wc filename: counts the words of the file and then characters
+tar cf file1.tar file1: makes tar file
+ctrl+c: haults command
+fg: resumes process and process will be shown
+bg: resumes process in background
+ctrl+z: stops process
+ctrl+u: deletes whole line
+ctrl+r: copies whole line
+ctrl+w: to delete single word
+exit: close the terminal
+ln -s file1 file1 link: creates soft link
