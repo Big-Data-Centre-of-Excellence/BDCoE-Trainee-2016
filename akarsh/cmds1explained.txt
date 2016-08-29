@@ -1,0 +1,12 @@
+ls: it tells the list of all files in the present directory
+cd:  it is used to change the current directory to some desired one
+pwd: it tells the present working directory
+mkdir: it is used to make new directory
+clear: it  is used to clear the screen
+man <command> : it is used to read manual for the particular command
+cat/more filename: this command is used to view the file 
+ctrl+d : it is used to save the text in file
+tail filename: it shows the last ten lines of the file
+head filename: it is used to first 10 lines of the file
+touch filename: it  is also used to make the file
+rem filename: it is used to remove the directory
