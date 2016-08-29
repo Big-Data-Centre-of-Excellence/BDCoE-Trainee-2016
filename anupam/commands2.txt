@@ -1,0 +1,34 @@
+Topic-Linux commands
+
+Description-
+1-Cat > file=creates new file
+2-cp file1 file2=copies content of file1 into file2
+3-more file1=shows content of file1
+4-ln -s file1 filelink=creates link of file1
+5-date=showsdate
+6-cal-shows calendar
+7-uptime-shows all information
+8-w=shows who is online
+9-whoami=shows which user is online
+10-finger user=shows all information about user
+11-uname-a=kernel information
+12-cat /proc/cpuinfo=shows cpu info
+13-cat /proc/meminfo=shows mem info
+14-touch --help
+15-wc file=shows lines,words,characters in a file
+16-tar cf file1.tar file1=compresses file
+17-tar -xvf file1.tar=decompresses file
+18-tar czf file1.tar.gz files =compresses file
+19-gzip file1=compresses file and removes original one
+20-gzip -d file1.gz=decompresses file
+21-ctrl+c=hault process
+22-fg=resumes process 
+23-bg=resumes process in background
+24-!!=repeates prev process
+25-exit =closes terminal
+26-ifconfig=shows ip
+27-\ls-lt
+
+
+source-big data seniors
+doubts= none
