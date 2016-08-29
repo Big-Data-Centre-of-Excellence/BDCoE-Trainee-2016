@@ -1,0 +1,34 @@
+Topic:Linux commands,file permission,Hadoop
+
+Content:
+1)Linux command
+   a)Link
+       i)hard link.
+       ii)soft link.
+   b)date
+   c)cal
+   d)uptime
+   e)w
+   f)whoami
+   g)finger user
+   h)get install finger
+   i)tar
+   j)ifconfig
+   h)exit
+   i)java installation
+
+2)File Permission
+     a)read.
+     b)write.
+     c)execute.
+
+3)Daemons
+      a)Data Node
+      b)Task tracker.
+      c)Job tracker.
+      d)Name node.
+      e)Secondary node.
+      f)Minitracker.
+
+Doubt:get install finger
+
