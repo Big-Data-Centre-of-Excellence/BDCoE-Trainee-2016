@@ -1,17 +1,23 @@
-TOPIC: Basic introduction of HADOOP and some Tecnologies
-technologies Dicussed are:
-PIG LATIN
-HIVE
-SQOOP
-FLUME
-FLINK
-OOZIE
-R
-MONGODB
-CASSANDRA
-HBASE
-ZOOKEEPER
+TOPIC:HADOOP BASICS,BIG DATA TECHNOLOGIES
+
+Description:
+Pig Latin-Query language is used for data analysis
+Hive-known as data warehouse
+Sqoop-used for fetching data from external sources,full form is SQL to Hadoop
+Flink-data fetching
+Oozie-workflow and used as scheduler
+R-used for statistical analysis(graphs)
+MongoDb-NOSQL data base
+cassendra-NOSQL data base
+Hbase-NOSQL data base
+zookeeper-used for centralised co-ordination service
+
+Daemons of Big Data:
+Name node contains meta-data,it has all the information about data nodes
+Secondary node is used as a back up of primary node
+Job tracker assigns job to task trackers
+Task tracker perfoms job assigned by job tracker
+Data node contains data on which task tracker processes
 
 
-
-DOUBT: none
+DOUBT:none
