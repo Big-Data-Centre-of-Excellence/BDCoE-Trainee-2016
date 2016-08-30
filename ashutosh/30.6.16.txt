@@ -1,0 +1,25 @@
+TOPIC: what is Mongo Db?
+Source: google
+Description:
+    Mongodb is an open Source cross platform documents data oriented database.
+Tis was developed in year 2009 and was developed in C,C++ and java language.
+It is classified as NOSQL database, in which NO means not only and SQL is Strucured
+Querry Language. hence it helps in database management for stuructured as well as 
+unstructured data.
+Since it is also a querry language it works on client and server model
+MAIN FEATURES OF MONGODB IS :-
+1) Mongodb helps in integration of data easier and faster.
+2) It is very helpfull in longf range querries and regular expression searches
+3) It provides replication feature, hence for each set of data there exist at least 2 copies
+4) It can be used in file storing
+5) Used for the aggrigation of data
+
+Basically whole of the system is based on the "MAster / Slave " System, which means
+that there exist one master for the database, and rest are its slaves. Hence
+master gets a task from the user , in return master divides the work amongst its slaves
+this process is called as "LOAD BALANCING". 
+Functioning of all the slaves is checked by the procees of "HEARTBEAT" checkup
+master sends a pulse to each of its slaves in every 3 sec, in return slaves has to
+send back the pulse within 9 sec, in case any of the slave fails to send bacl pulse
+its work is assigned to some othher slave
+Doubts: None
