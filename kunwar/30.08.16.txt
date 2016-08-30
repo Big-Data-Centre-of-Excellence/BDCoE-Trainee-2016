@@ -1,0 +1,26 @@
+Topic:Hadoop basics,Big data technologies(apache spark)
+
+Description:
+Hadoop ecosystem:
+1->Pig-Query language used for data analysis
+2->Hive-also known as data warehouse
+3->Sqoop-used for fetching data from external sources,full form is SQL to Hadoop
+4->Flume-used for fetching streaming data
+5->Flink-data fetching
+6->Oozie-workflow and used as scheduler
+7->R-used for statistical analysis
+8->MongoDb-NOSQL data base
+9->cassendra-NOSQL data base
+10->Hbase-NOSQL data base
+11->zookeeper-used for centralised co-ordination service
+
+Daemons of Big Data->
+1->Name node=contains meta-data,has all the information about data nodes
+2->Secondary node-used as a back up of primary node
+3->Job tracker-assigns job to task trackers
+4->Task tracker-perfoms job assigned by job tracker
+5->Data node-contains data on which task tracker does it's processing
+
+Studied basics apache spark eco-system.
+
+Doubts:none
