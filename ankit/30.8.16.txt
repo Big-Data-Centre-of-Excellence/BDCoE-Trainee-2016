@@ -1,0 +1,17 @@
+TOPIC: Basic introduction of HADOOP and some Tecnologies
+technologies Dicussed are:
+PIG LATIN
+HIVE
+SQOOP
+FLUME
+FLINK
+OOZIE
+R
+MONGODB
+CASSANDRA
+HBASE
+ZOOKEEPER
+
+
+
+DOUBT: none
