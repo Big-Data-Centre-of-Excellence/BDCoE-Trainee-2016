@@ -1,0 +1,16 @@
+Topic: Hadoop introduction , Some technologies of hadoop ecosystem...
+
+
+Technologies : pig latin , hive , sqoop , flume , flink , mongodb , Hbase , oozie , R , Lassandre , zookeeper
+
+
+
+Some competetive programming 
+
+Source : Hackerrank.com
+
+
+Doubt: NONE......
+
+
+
