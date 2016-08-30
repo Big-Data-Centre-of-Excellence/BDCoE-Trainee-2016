@@ -1,0 +1,49 @@
+Topic:Hadoop Revision ,Hackerrank(maximum subarray problem)
+
+Link:www.hackerrank.com
+
+Source Code:
+
+#include <stdio.h>
+#include <string.h>
+#include <math.h>
+#include <stdlib.h>
+
+int main() {
+
+    /* Enter your code here. Read input from STDIN. Print output to STDOUT */   
+    long long int q,i;
+    scanf("%lld",&q);
+    for(i=0;i<q;i++){
+        long long int n,m,j,k,sum,com=0,flag;
+        scanf("%lld %lld",&n,&m);
+        long long int a[n];
+        for(j=0;j<n;j++){
+            scanf("%lld",&a[j]);
+        }
+        for(j=0;j<n;j++){
+            flag=0;
+            sum=a[j];
+            for(k=j+1;k<n;k++){
+                if(sum==m-1){
+                    printf("%lld\n",sum);
+                    flag=1;
+                    break;
+                }
+                sum=sum+a[k];
+                if(sum>=m)
+                    sum=sum%m;
+                if(sum>com)
+                com=sum;
+            }
+            if(flag==1)
+                break;
+               
+        }
+        if(flag!=1)
+            printf("%lld\n",com);
+    }
+    return 0;
+}
+
+Doubt:the problem shows incorrect output...currently working on code
