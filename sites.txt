@@ -1,0 +1,27 @@
+1. 
+	http://www.programiz.com/c-programming/library-function/ctype.h
+	http://www.cplusplus.com/reference/climits/
+	http://www.cplusplus.com/reference/cmath/
+	http://www.cplusplus.com/reference/cstdlib/
+	http://www.cplusplus.com/reference/cstring/
+
+2.
+	http://www.geeksforgeeks.org/comparator-function-of-qsort-in-c/
+	http://www.tutorialspoint.com/c_standard_library/c_function_bsearch.htm
+
+3.
+
+	http://www.geeksforgeeks.org/dynamic-programming-set-10-0-1-knapsack-problem/
+
+4.
+	
+	http://www.geeksforgeeks.org/c/
+	http://www.geeksforgeeks.org/c-plus-plus/
+	http://www.geeksforgeeks.org/java/
+
+5. 
+
+	http://www.geeksforgeeks.org/fundamentals-of-algorithms/#DynamicProgramming
+
+6.
+	http://www.geeksforgeeks.org/top-algorithms-and-data-structures-for-competitive-programming/
