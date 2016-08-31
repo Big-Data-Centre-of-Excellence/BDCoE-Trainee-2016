@@ -1,0 +1,19 @@
+Topic-Apache spark
+source-different-different sites
+
+Description-A brief introduction to apache spark
+Apache spark is also a framework as hadoop,both of them differ in the way they process data but they are not mutually exclusive even.
+apache spark does not have its own storage system as hadoop has HDFS,it requires storage system from third party,the third party can be hadoop's HDFS or cloud storage.
+Apache spark usually does its processing in memory while hadoop's map reduce prefer's disk.so disk processing is slower than memory processing that's why Apache spark is 
+10 times faster than hadoop when it comes to disc processing and 100 times faster when it comes to memory processing.Apache spark beats hadoop when it comes to perform iterative
+analysis,since in hadoop's map-reduce data is fetched each time from data nodes; processing is done result is saved on the disk then the updated data is fetched from the disc again
+and again the processing cycle starts while in spark all the processing is done in memory then only the required data is saved onto the memory.
+Map reduce is tough to code that's why pig came into picture but apache spark has more easier and interactive query languages.Apache has its own SQL known as Apache sql
+and it also has Blink DB search engine which is similar to SQL but is more interactive,In BLINK DB we can give sql commands plus we can write even in how much time we want
+the result and it returns the result with error and confidence stats so it's way more interactive.Apache provides interactive API's using Scala ,java ,Python.
+Apache is less secure than Hadoop's Map-reduce.Apache was build to work together with hadoop to revolutionalize Big data analytics,it was not meant to replace hadoop,
+both can work independently but when they used together it's more beneficial.
+
+
+Doubts:-Sir,What is Resilient Distributed Data sets RDD in Apache spark?
+
