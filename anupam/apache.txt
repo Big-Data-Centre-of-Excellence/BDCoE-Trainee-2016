@@ -17,3 +17,16 @@ both can work independently but when they used together it's more beneficial.
 
 Doubts:-Sir,What is Resilient Distributed Data sets RDD in Apache spark?
 
+*************
+Answer :
+
+Resilient Distributed Datasets (RDDs) are a distributed memory abstraction that lets programmers perform in-memory computations on large clusters in a fault-tolerant manner.
+
+1. Resilient(R) : fault-tolerant
+2. Distributed(D) with data residing on multiple nodes in a cluster.
+3. Dataset(D) is a collection of partitioned data
+
+So RDD is a fault-tolerant collection of elements that can be operated on in parallel.
+
+*************
+
