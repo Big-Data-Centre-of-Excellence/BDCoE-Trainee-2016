@@ -1,0 +1,26 @@
+Topic:Hadoop,Bigdata technologies.
+
+Content:
+1.Hadoop framework.
+   a)HDFS.
+   b)MapReduce.
+2.Commercial Hardware.
+    a)Name Node.
+    b)Secondary name node.
+    c)Data node.
+3.Commodity.
+    a)Job tracker.
+    b)Task tracker.
+4.BigData Technologies.
+     a)Pig Latin.
+     b)Hive.
+     c)Sqoop.
+     d)Flume.
+     e)Oozie.
+     f)R.
+     g)Mongo DB.
+     h)Lassendra.
+     i)Hbase.
+     j)Zookeeper.
+
+Doubts:None.
