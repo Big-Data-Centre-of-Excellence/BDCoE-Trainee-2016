@@ -1,0 +1,48 @@
+Topic:comparison b/w mongodb and rdbms , applications of mongodb
+Source: youtube
+Description: 
+  Basically mongodb  is scalable, open souce, high performance,"Document Oriented Database"
+Database is categorized in 3 forms:
+1)Relational Database Management System(RDBMS):
+This is the conventianl database in which each and evey entry of the databse are logically 
+or some other way connected to each other
+2)OLAP(Online Analytic Processing):
+It is the multimedia analysis of a bussiness transaction. It helps us to process multimedia data
+such as extraction of the data from a graph and doping its analysis
+3)NoSql database:
+It stands for not only sql database, this database is non relational as the name indicates
+hence it is usefull in analysis of data from a database which is not related as conventional
+Features of nosql database:
+1)it provides horizontal scalability, which means data can be easily handeled using distributed computing
+2)It works on master and slave conviction
+
+Disadvantage of nosql db over conventianl or sql datbase
+1)nosql db does not allow join, which means 2 or more tables cant be joined directly using join commands
+2)complex transactions are not supported , such as - taking few names from the table, then sorting it, deleting
+few elements and adding some more and so on
+3)constarints are not supported, which imposing a set of rules for data filling is not supported
+
+Advantages of nosql db
+1)It is a querry language, inspite of being so generalized in terms of data evalution, queery is applicable too
+2)fast performance is available due to the distributed computing
+3) horizontal scalabilty is availabilty 
+4)storing and analysis of data is easy for example whle mainbtaing a datbase there is no compulsion for number
+of entries to be same for each subsiquent data node
+5)It has provision for storing locational data such as latitudes and longitudes, hence using this many implications 
+can be done such as finding things in radius of few kms or finding the range of extent of volcanic erruption etc
+
+The most important i believe, i was able to get was that:-
+for the use of oops based language in data handling, ie data addition and implimentation
+In a rdbms if there are multiple database, entry is not easy because there is recquirement of object conversion
+by thye compiler,which means we have to specify properties of data before they are added to there respective tables
+But in case of mongodb object conversion is not recquired by the complier, hence data is directly added and implimented
+
+Application of Mongodb:-
+1)it is used form maintaing user account data
+2) maintaing form data
+3)content management process
+4)it is suitable for geological data managemnet and analysis
+5)used for storing and evaluating logarithmic data
+6)used for application configuration
+
+Doubts- none
