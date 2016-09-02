@@ -1,0 +1,47 @@
+Topic:Some of the commands used in MongoDb
+Source:tutorialspoint
+Description:
+Some comands recquired are:
+1)use: this command is used to create or define a new database, incase if database
+with some name already exists then it returns the existing database
+   Syntax: use database_name
+2)db: this command is used to have a look at the current working database, just like we have ls in linuix
+   Syntax: db
+3)show dbs: this command is used to have a look at the available databases on our system
+   Syntax: show dbs
+4)insert: this command is used to insert some data in the database
+   Syntax:db.database_name.insert({"datafield":"data",......})
+   Example: db.student.inser({"name":"Ashutosh"})
+5)dropdatabase(): this command is used to drop down or delete the selected database
+if any database is not selected and this command is used then default database is deleted
+   Syntax:db.dropdatabase()
+   Example: use student
+            db.student.insert({"name":"Ashutosh","Std_Id":"1513030"})
+            db.dropdatabase()
+Note:- concept of object id
+object id of any document is 12 byte hexadecimal unique number to identify a particular document
+12 bytes is divided as foloow
+first 4 bytes is the time stamp of the document
+next 3 bytes is the machine id
+next 2 bytes is the process id
+next 3 bytes is the increment id or factor
+so basically object id is recognization factor
+what if id is unknow?
+how to insert the doument
+we can use db.post.save(document_name) to insert the document in database
+6)createCollection(): this command is used to create collection as the name indicates
+   Syntax:db.createCollection(name, option)
+   name: it is the name of the collection we need to give, this field is mandatory to be given
+   option:this field is optional, it defines the properties of the collection
+           -> capped: it is a boolean entity, which enables us to specify the limit of data
+                     for example: marks of any subject can not be exceede above 100
+           -> autoindexID: this field is used for indexing 
+           -> size: it is used to specify the max size of data that can be given
+           -> max: it is used to specify the max number of documents available
+7)show collections: used to show all the collections in database
+    Syntax: show collections
+8)drop(): this command is used to drop a collection
+    Synatx: db.collection_name.drop()
+Doubts: none
+
+
