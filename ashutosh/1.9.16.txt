@@ -1,0 +1,18 @@
+Topic:Data types available in MongoDb
+Source:google
+Description:
+Datatypes supported are as follows:
+1)String: most commonly used datatype
+2)Integer: used to store numerical values
+3)Boolean:used to store true/false values
+4)double:use to store floating point values
+5)Arrays: to store multiple values under same name
+6)Timestamp:to store time and date values
+7)Object id: to store 12 bytes hexadecimal number which is further used to identify a particular document
+8)object: to store embedded items such as photos, videos etc
+9)code: codes of javascrpt can be stored
+9)regular expression: to store any general data for future use
+10)null: to store null value
+11)min/max keys: to store min and max values, to perform querries related to range
+12)binary data: used to store binary number 
+13)also have provision to store latitudes and longitudes
