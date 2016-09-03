@@ -1,0 +1,5 @@
+Topic : Installing SSH
+		Disabling IPv6
+		Changing Configuration Files
+		Starting and stoping namenode
+Doubt : None
