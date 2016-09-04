@@ -1,0 +1,42 @@
+Topic : commands related to mongoDB
+Source: tutorials point
+Description:
+1)insert(): this command is used is used to insert data in mongoDb collection
+    Syntax:db.database_name.insert({data})
+    Example:db.student.insert({"name":"AShutosh"})
+2)find(): this command is used to querry data in mongoDb, using this command all 
+the documents will be displayed but in an unstructured manner
+      example: db.student.find()
+note: if we use pretty() function further then the result is displayed in the formatted manner
+now if we give parameters inside find() function, we can use filtere querries
+      example: db.students.find({marks:{$gt:90}}) this querries results in display of all students above 90
+               db.students.find({marks:{$lt:40}}) this querry result in display of students having marks less than 40
+similarly we have criteria for equality db.students.find({marks:55})
+we can have querry for range wise operations also db.students.find({marks:{$gt:55, $lt:75}})
+use of "or" in querring data 
+       db.students.insert({"name":"Ashutosh"}{"Marks":"90"})
+use of "and" in querrying from database
+       db.students.insert({"name":"Ashutosh","Marks":"90"})
+we can also use "and" and "or" together in a querry
+       db.students.insert({"marks":{$gt:40},$or[{"name":"Ashutosh","name":"Anand"}]})
+3)update(): As the name indicates this method is used to update a record in the databse
+       Syntax: db.databse_name.update(selected criteria, updated data)
+       for example: db.students.update("name:"Ashutosh","last_name":"Anand")
+basically this method updates one document at a time in case we have to update multiple data then we have to use multi keyword
+       for example: db.students.update({marks:{$gt:40}},{$set{"status":"Pass"}},{multi:true})
+4)save(): this method is used to save the updated field, basically old file is replaced with the new one
+       Syntax:db.students.save({object_Id,new data})
+5)remove(): this method is used to remove a data from the database
+basically there are two parameters assosiated with this method
+criteria: this parameter is optional, and is used to assign the criteria to remove data
+justOne: this parameter is also optional and is used to speicfy weather multiple deltion is allowe dor not, which is further specied by 1(true), 0(false)
+       Syntax: db.Databse_name.remove(deltion_criteria, 1/0)
+if db.database_name.remove()
+is used then whole of the document in the collection is deleted
+
+Doubts: use of $sign?
+        it is used in querry such as $gt,$lt,$or
+        not getting why is it used, also the text after $ does it has to be to be certain keyword or any text is considerd
+
+
+

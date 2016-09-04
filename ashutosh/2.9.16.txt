@@ -11,7 +11,7 @@ with some name already exists then it returns the existing database
    Syntax: show dbs
 4)insert: this command is used to insert some data in the database
    Syntax:db.database_name.insert({"datafield":"data",......})
-   Example: db.student.inser({"name":"Ashutosh"})
+   Example: db.student.insert({"name":"Ashutosh"})
 5)dropdatabase(): this command is used to drop down or delete the selected database
 if any database is not selected and this command is used then default database is deleted
    Syntax:db.dropdatabase()
