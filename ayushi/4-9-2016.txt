@@ -1,0 +1,14 @@
+Title:Hadoop Envorment.
+
+Content:
+1)java.
+2)SSH akswk.
+3)HADOOP-file/extract.
+4)Configuration files.
+5)IPV 6 disable.
+6)Namenode format.
+
+THREE MODE OF HADOOP:
+a)Distributed.
+b)Stand-alone.
+c)Pseudo-distributed.
