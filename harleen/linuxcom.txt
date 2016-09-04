@@ -1,0 +1,13 @@
+commands in linux
+
+date
+cal
+w
+uptime
+whoami
+finger user
+uname
+cat /proc/cpinfo
+cat /proc/meminfo
+--help
+wc filename
