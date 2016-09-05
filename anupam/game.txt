@@ -1,0 +1,230 @@
+package Demo;
+
+import javax.imageio.ImageIO;
+import javax.swing.*;
+import javax.xml.bind.annotation.adapters.XmlJavaTypeAdapter;
+import java.awt.*;
+import java.awt.event.MouseEvent;
+import java.awt.event.MouseListener;
+import java.io.IOException;
+
+/**
+ * Created by Friends on 04-09-2016.
+ */
+public class Demo implements MouseListener {
+    public static int y1vel=728;
+    public static  int y2vel=856;
+    public static int y3vel=600;
+    public static int b1vel=600;
+    public static int b2vel=728;
+    public static int b3vel=856;
+    private static  boolean showballoon1=true;
+    private static boolean showbomb1=true;
+    private static boolean Showballoon2=true;
+    private static boolean Showballoon3=true;
+    private static boolean showbomb2=true;
+    private static boolean showbomb3=true;
+    public static int cnt=0;
+    public static int a=0;
+
+
+
+    public static void main(String[] args) {
+        JFrame frame=new JFrame();
+        JPanel panel =new JPanel();
+        panel.setPreferredSize(new Dimension(600,600));
+        frame.add(panel);
+        frame.pack();
+        frame.setVisible(true);
+        panel.setFocusable(true);
+        panel.requestFocus();
+        frame.setDefaultCloseOperation(WindowConstants.EXIT_ON_CLOSE);
+
+        Graphics graphics;
+        try {
+            Thread.sleep(300);
+        } catch (InterruptedException e) {
+            e.printStackTrace();
+        }
+
+        Demo demo=new Demo();
+        panel.addMouseListener(demo);
+        graphics=panel.getGraphics();
+        Image menu1=null;
+        try {
+            menu1=ImageIO.read(Demo.class.getResource("/Images/menu1.png"));
+        } catch (IOException e) {
+        }
+        graphics.setColor(Color.green);
+        graphics.fillRect(0,0,600,600);
+        graphics.drawImage(menu1,0,0,null);
+        Image balloon1=null;
+        Image balloon2=null;
+        Image balloon3=null;
+        Image bomb1=null;
+        Image bomb2=null;
+        Image bomb3=null;
+        Image boom1=null;
+
+
+        try {
+            balloon1= ImageIO.read(Demo.class.getResource("/Images/ballon.png"));
+            balloon2= ImageIO.read(Demo.class.getResource("/Images/ballon.png"));
+            balloon3= ImageIO.read(Demo.class.getResource("/Images/ballon.png"));
+            bomb1=ImageIO.read(Demo.class.getResource("/Images/bomb.png"));
+            bomb2=ImageIO.read(Demo.class.getResource("/Images/bomb.png"));
+            bomb3=ImageIO.read(Demo.class.getResource("/Images/bomb.png"));
+            boom1=ImageIO.read(Demo.class.getResource("/Images/boom1.png"));
+        } catch (IOException e) {
+        }
+
+        while(true) {
+            try {
+                Thread.sleep(30);
+            } catch (InterruptedException e) {
+                e.printStackTrace();
+            }
+            if (a == 1) {
+                if (cnt == 1) {
+                    graphics.setColor(Color.LIGHT_GRAY);
+                    graphics.fillRect(0, 0, 600, 600);
+                    graphics.drawImage(boom1, 0, 0, null);
+                    break;
+                }
+
+                if (y1vel < -128) {
+                    if (showballoon1 == false)
+                        showballoon1 = true;
+                    y1vel = 728;
+                }
+
+                if (y2vel < -128) {
+                    if (Showballoon2 == false)
+                        Showballoon2 = true;
+                    y2vel = 856;
+                }
+                if (y3vel < -128) {
+                    if (Showballoon3 == false)
+                        Showballoon3 = true;
+                    y3vel = 600;
+                }
+                if (b1vel < -128) {
+                    if (showbomb1 == false)
+                        showbomb1 = true;
+                    b1vel = 600;
+                }
+
+                if (b2vel < -128) {
+                    if (showbomb2 == false)
+                        showbomb2 = true;
+                    b2vel = 728;
+                }
+                if (b3vel < -128) {
+                    if (showbomb3 == false)
+                        showbomb3 = true;
+                    b3vel = 856;
+                }
+
+
+                graphics.clearRect(0, 0, 600, 600);
+                graphics.setColor(Color.green);
+                graphics.fillRect(0, 0, 600, 600);
+                if (showballoon1)
+                    graphics.drawImage(balloon1, 58, y1vel, null);
+                if (Showballoon2)
+                    graphics.drawImage(balloon2, 236, y2vel, null);
+                if (Showballoon3)
+                    graphics.drawImage(balloon3, 414, y3vel, null);
+                if (showbomb1)
+                    graphics.drawImage(bomb1, 58, b1vel, null);
+                if (showbomb2)
+                    graphics.drawImage(bomb2, 236, b2vel, null);
+                if (showbomb3)
+                    graphics.drawImage(bomb3, 414, b3vel, null);
+
+                y1vel -= 10;
+                y2vel -= 10;
+                y3vel -= 10;
+                b1vel -= 10;
+                b2vel -= 10;
+                b3vel -= 10;
+
+            }
+        }
+
+    }
+
+    @Override
+    public void mouseClicked(MouseEvent e) {
+        if((e.getX()>=0&&e.getX()<=338)&&(e.getY()>=0&&e.getY()<=600))
+                a=1;
+        if((e.getX()>=58&&e.getX()<=186)&&(e.getY()>=b1vel&&e.getY()<=b1vel+128))
+        {
+            showbomb1=false;
+            cnt=1;
+            System.out.println("game over");
+        }
+
+        if((e.getX()>=58&&e.getX()<=186)&&(e.getY()>=y1vel&&e.getY()<=y1vel+128))
+        {
+            if(e.getY()>=b1vel&&e.getY()<=b1vel+128)
+            { showbomb1=false;
+                cnt=1;
+                System.out.println("game over");}
+            else
+                showballoon1=false;
+        }
+        if((e.getX()>=236&&e.getX()<=364)&&(e.getY()>=b2vel&&e.getY()<=b2vel+128))
+        {
+            showbomb2=false;
+            cnt=1;
+            System.out.println("game over");
+        }
+        if((e.getX()>=236&&e.getX()<=364)&&(e.getY()>=y2vel&&e.getY()<=y2vel+128))
+        {
+            if(e.getY()>=b2vel&&e.getY()<=b2vel+128)
+            {  showbomb2=false;
+            cnt=1;
+            System.out.println("game over");}
+            else
+                Demo.Showballoon2=false;
+        }
+        if((e.getX()>=414&&e.getX()<=578)&&(e.getY()>=b3vel&&e.getY()<=b3vel+128))
+        {
+            showbomb3=false;
+            cnt=1;
+            System.out.println("game over");
+        }
+        if((e.getX()>=414&&e.getX()<=578)&&(e.getY()>=y3vel&&e.getY()<=y3vel+128))
+        {
+            if(e.getY()>=b3vel&&e.getY()<=b3vel+128)
+            {showbomb3=false;
+            cnt=1;
+            System.out.println("game over");}
+            else
+                Demo.Showballoon3=false;
+        }
+
+    }
+
+    @Override
+    public void mousePressed(MouseEvent e) {
+
+
+    }
+
+    @Override
+    public void mouseReleased(MouseEvent e) {
+
+    }
+
+    @Override
+    public void mouseEntered(MouseEvent e) {
+
+    }
+
+    @Override
+    public void mouseExited(MouseEvent e) {
+
+    }
+}
