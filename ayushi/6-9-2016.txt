@@ -1,0 +1,13 @@
+Topic:R
+
+Content:
+1.R applications.
+2.Objects.
+3.Commands.
+    a)Arrays are replaced by vectors.
+    b)Structure are replaced by List.
+    c)Matrix representation in R.
+4.Plotting of graph(pie chart,chart etc.)
+
+
+Doubt:NONE.
