@@ -1,0 +1,13 @@
+R-data analytics
+ -data visualsation
+ -machine learning
+ -data production
+ -data extraction
+
+    objects
+    vector
+     list
+     matrix
+     plot
+      hist
+DOUBT:none
