@@ -1,0 +1,22 @@
+Topic:Mongodb insatllation
+Source:TutorialsPoint
+Description:
+1) use the command sudo apt-key adv --keyserver hkp://keyserver.ubuntu.com:80 --recv 7F0CEB10
+this command is used to specify the link from which linuix os will start to download the mongodb
+2) then create a dile using command
+sudo touch /etc/apt/sources.list.d/mongodb.list
+this command is used to crate a file in which all the files related to mongodb will be downloaded
+3)the type command echo 'deb http://downloads-distro.mongodb.org/repo/ubuntu-upstart dist 10gen' 
+   | sudo tee /etc/apt/sources.list.d/mongodb.list
+this command is used to download the recquired file for instaqllation process
+4) sudo apt-get update
+this will check for the update in the recquired files, if there is any update then file is updated, or else remains same
+5) sudo apt-get install -y mongodb
+this command is used to install mongodb in our system
+6)sudo service mongodb start
+ this command is used to start mongodb service in our system
+7)now to start mongodb inyour system type mongo in command prompt
+8)to stop mongodb ctrl+c
+9)to stop mongodb service from system type following command
+sudo service mongodb stop
+Doubts:none
