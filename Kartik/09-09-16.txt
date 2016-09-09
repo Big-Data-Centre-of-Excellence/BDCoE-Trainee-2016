@@ -1,0 +1,6 @@
+Topic : HIVE 
+		Partitions
+		Indexes
+		Views
+		Buckets
+Doubt : None.
