@@ -1,0 +1,16 @@
+
+TOPIC: MongoDB
+
+
+
+MODIFIERS:   These allow us to edit a document's values,based on what's its current value is.For example
+                           adding values to the end of an array.
+BATCH INSERT:    Multiple documents can be inserted in mongo db using batch inserting operations.
+
+TTL concept :TTL indexes are special single field indexes that mongoDB can use to automatically remove docs from 
+                       a collection after a certain amount of time.Data expiration is useful for certain types of information 
+                       like machine generated event data,logs and session information that only need to persist in a database
+                       for a finite amount of time.To create a TTl index use the db.collection.createIndex() method 
+                       with thw expireAfterseconds option.
+Can two docs in mongoDB can have same _id:  yes that's possible in mongo DB.Two docs belonging to different
+                                                                                collection but in the same database can have same _id.
