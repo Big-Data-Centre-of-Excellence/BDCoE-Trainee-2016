@@ -1,0 +1,22 @@
+Topic:multithreading
+Source: google
+Description:
+multithreading in java can be useful in solving issues relating to
+multitasking,multiusers,multiprocessing
+bascically each and every program is itself a thread
+main function is the smallest thread
+hence a thread is a smallest individual code existing having capabilty to use some of the resources of system
+but the problem arises when several threads try to use the resouces simultaniously
+which can be done using cpu scheduling
+in order to execute each and every program there is always an issue which program will be executed first, and which will be the next
+this is descide by scheduling of os. but if set priority we can tell our system which program to start first , but there is no gaurantee
+of the process to end first 
+
+Keyword that are recquired in multitreading
+1)Thread: it is class which is inherited in current class to make it function like a thred
+2)Runnable: it is an interface class ehich is inherited in the current class to set the architecture of our thread
+3)run: this is the function of thread which is use to code for thead
+4)start: this method is used to initiate a thread
+5)sleep: this metod is use to pause the function for specified period of time, value fo time is given in milliseconds
+6)stop: this is method is used to stop the current thread
+7)synchronized: this method is used to sunchonize the thread i.e we can sunchronize the functioning of threads.
