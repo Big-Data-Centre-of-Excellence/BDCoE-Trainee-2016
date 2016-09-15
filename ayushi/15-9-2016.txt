@@ -1,0 +1,24 @@
+Topic:JAVA-Abstract Window Toolkit(AWT).
+
+Content:
+AWT is huge.It consist of 12 packages and two of the 
+most common are-
+a)java.awt package contains
+     i)Component classes.
+     ii)Container classes.
+     iii)Layout managers.
+     iv)Custom Graphics classes.
+b)java.awt.event package support event handling.
+      i)Event classes.
+      ii)Event Listener.
+      iii)Event Listener Interface.
+
+
+AWT Classes-
+a)AWTEvent-encapsulates AWT event.
+b)BorderLayout-The border layout manager.
+c)CheckBox-Generate a checkBox control.
+d)Choice-Create a pop-up list.
+
+
+Doubt-NONE
