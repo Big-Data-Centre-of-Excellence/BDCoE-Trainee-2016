@@ -1,0 +1,5 @@
+TOPIC:  Working on my android app project..
+Source:   developer.android.com
+Platform: Android Studio
+Doughts:   Yes
+                   Exploring more to clear them.....
