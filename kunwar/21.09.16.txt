@@ -1,0 +1,4 @@
+topic: data base connectivity using JDBC
+description: learned database using jdbc driver in java
+will use it in displaying the high score in my project
+doubts: none
