@@ -1,0 +1,37 @@
+topic: code for taking out the inner most bracket in an arithmatic expression
+code:
+class brac
+{
+  String br(String a)
+  {
+      int l=a.length(),i=0,l1=0,l2=l,j;
+      String b="";
+      while(i<l)
+      {
+          if(a.charAt(i)=='(')
+          {
+              l1=i+1;
+              
+          }
+          else if(a.charAt(i)==')')
+          {
+              l2=i;
+              if(a.charAt(i+1)=='(')
+              {
+                  for(j=0;j<=l2;j++)
+                  b=b+a.charAt(j);
+                  b=b+"*";
+                  for(j=l2+1;j<l;j++)
+                  b=b+a.charAt(j);
+                  a=b;
+                  l=a.length();
+              }
+              a=a.substring(l1,l2);
+              break;
+          }
+          i++;
+      }
+      
+      return(a);
+  }
+}
