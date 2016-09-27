@@ -1,0 +1,26 @@
+Topic : performed wordcount on shakespeare works using hadoop-examples.jar
+Commands : /usr/local/hadoop/bin/start-all.sh    -to start all daemons
+                            OR
+             open cloudera manager->hdfs->start
+         
+         cd Downloads
+ 
+         hadoop fs -copyFromLocal words.txt  : to copy file to hdfs
+         
+
+         hadoop fs -ls : to list files in hdfs
+         
+        hadoop jar /usr/jars/hadoop-examples.jar wordcount words.txt out
+        : to implement wordcount on words.txt
+
+        hadoop fs -ls out : to list the output file
+        
+        hadoop fs -copyToLocal out/part-r-00000 local.txt :  to copy result file to local.txt on local (part-r-00000 may be differnt on other pc)
+        
+        more/gedit/cat local.txt : to display file
+
+
+
+Output  : 13,41,500
+
+Link for shakespeare works : https://ocw.mit.edu/ans7870/6/6.006/s08/lecturenotes/files/t8.shakespeare.txt
