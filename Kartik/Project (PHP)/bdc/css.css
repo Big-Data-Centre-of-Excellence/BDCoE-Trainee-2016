@@ -1,0 +1,120 @@
+*
+{
+	padding : 0px;
+	margin : 0px;
+}
+#first img
+{
+	margin-top : 25px;
+	margin-left : 8px;
+	height : 220px;
+	width : 1350px;
+	border-radius : 10px;
+}
+#menu ul
+{
+	list-style :none;
+	margin-left : 20px;
+}
+#menu ul li
+{
+	margin-top : 20px;
+	margin-left :10px;
+	color : white;
+	font-family : comic sans ms;
+	height : 40px;
+	width : 150px;
+	text-align: center;
+	line-height : 35px;
+	float :left;
+	border-radius : 50px;
+	position : relative;
+}
+#menu ul li a
+{
+	text-decoration : none;
+	color : black;
+	text-shadow : 5px #1e90ff;
+	display : block;
+	line-height : 35px;
+}
+#a
+{
+	border : 2px solid red;
+	border-radius : 50px;
+}
+#b
+{
+	border : 2px solid red;
+	border-radius : 50px;
+}
+#c
+{
+	border : 2px solid red;
+	border-radius : 50px;
+}
+#d
+{
+	border : 2px solid red;
+	border-radius : 50px;
+}
+#e
+{
+	border : 2px solid red;
+	border-radius : 50px;
+}
+#f
+{
+	border : 2px solid red;
+	border-radius : 50px;
+}
+#g
+{
+	border : 2px solid red;
+	border-radius : 50px;
+}
+#h
+{
+	border : 2px solid red;
+	border-radius : 50px;
+}
+#i
+{
+	border : 2px solid red;
+	border-radius : 50px;
+	width : 130px;
+}
+#i a
+{
+	text-align : left;
+	margin-left : 10px;
+}
+#i img
+{
+	float : left;
+	margin-left : 10px;
+	margin-top : 10px;
+}
+#j
+{
+	border : 2px solid red;
+	border-radius : 50px;
+	width : 130px;
+}
+#j img
+{
+	float : left;
+	margin-left : 10px;
+	margin-top : 10px;
+}
+#j a
+{
+	text-align : left;
+	margin-left : 10px;
+}
+#sub
+{
+	background-image : url("b2.jpg");
+	height : 1100px;
+	width : 1350px;
+}

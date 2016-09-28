@@ -1,0 +1,123 @@
+*
+{
+	padding : 0px;
+	margin : 0px;
+}
+#menu
+{
+		margin-left : 100px;
+}
+#menu ul
+{
+	list-style :none;
+	margin-left : 30px;
+}
+#menu ul li
+{
+	margin-top : 20px;
+	margin-left :20px;
+	color : white;
+	font-family : comic sans ms;
+	height : 40px;
+	width : 200x;
+	text-align: center;
+	line-height : 35px;
+	float :left;
+	border-radius : 50px;
+}
+#menu ul li a
+{
+	text-decoration : none;
+	color : black;
+	text-shadow : 5px #1e90ff;
+	display : block;
+	line-height : 35px;
+}
+#a
+{
+	border : 2px solid red;
+	border-radius : 50px;
+}
+#b
+{
+	border : 2px solid red;
+	border-radius : 50px;
+}
+#c
+{
+	border : 2px solid red;
+	border-radius : 50px;
+}
+#d
+{
+	border : 2px solid red;
+	border-radius : 50px;
+}
+#e
+{
+	border : 2px solid red;
+	border-radius : 50px;
+}
+#f
+{
+	border : 2px solid red;
+	border-radius : 50px;
+}
+#g
+{
+	border : 2px solid red;
+	border-radius : 50px;
+}
+#h
+{
+	border : 2px solid red;
+	border-radius : 50px;
+}
+#sub
+{
+	background-image : url("b2.jpg");
+	height : 1200px;
+	width : 1350px;
+}
+#me
+{
+	margin-left : 120px;
+}
+#me ul
+{
+	list-style : none;
+}
+#me ul li
+{
+	float : left;
+	margin-right : 50px;
+}
+#me ul li a
+{
+	text-decoration : none;
+	color : black;
+	font-size : 20px;
+	border : 2px solid red;
+	border-radius: 20px;
+	padding : 10px;
+	padding-left : 10px;
+	padding-right : 10px;
+	border-bottom : none;
+	text-align : center;
+	background-color : white;
+}
+#box
+{
+	border : 5px solid DodgerBlue;
+	width : 1000px;
+	height : 800px;
+	background-color : white;
+	box-shadow : 5px 5px 5px #000;
+}			
+#under
+{
+	margin-top : 30px;
+	height : 33px;
+	width : 1000px;
+	border-bottom : 2px solid DodgerBlue;
+}

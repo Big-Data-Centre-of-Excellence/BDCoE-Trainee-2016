@@ -1,0 +1,72 @@
+*
+{
+	margin :0px;
+	padding : 0px;
+}
+#uu img 
+{
+	
+	height : 260px;
+	width : 250px;
+	border : 2px solid purple;
+	border-radius  : 250px;
+	margin-top : 40px;
+	margin-left : 500px;
+	-webkit-transition :all 5s ;
+}
+#uu img:hover
+{
+	-webkit-transform : rotate(360deg);
+}
+#h
+{
+	height : 50px;
+	width : 1380px;
+	background-color : black;
+}
+#v
+{
+	height : 800px;
+	width  : 40px;
+	float : left;
+	background-color : black;
+}
+#box
+{
+	margin-left : 300px; 
+	margin-top : 50px; 
+	height : 300px;
+	width  : 700px;
+	border : 2px solid purple;
+	box-shadow : 5px 5px 5px #000;
+}
+#box  input[type="text"]
+{
+	border-radius : 20px;
+	text-align : center;
+	font-family : comic sans ms;
+	font-size : 20px;
+	width : 250px;
+}
+#box  input[type="password"]
+{
+	border-radius : 20px;
+	text-align : center;
+	font-family : comic sans ms;
+	font-size : 20px;
+	width : 250px;
+}
+#box input[type="submit"]
+{
+	width : 200px;
+	text-align : center;
+	font-family : comic sans ms;
+	font-size : 20px;
+	border-radius : 10px;
+	background : #eef;
+	border : 2px solid purple;
+}
+#box input[type="submit"]:hover
+{
+	background : gray;
+}
