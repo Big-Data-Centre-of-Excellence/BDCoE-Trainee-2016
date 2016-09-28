@@ -1,0 +1,160 @@
+body{
+	background-color:#E8E8FF;width:100%;height:100%;
+	}
+.wrapper{
+        
+		background-color:white;
+		margin:1% 15% 1% 15%;
+		width:70%;
+		height:100%;
+		
+	
+	
+         }
+header{
+		position:relative;
+		}
+li{  
+	
+	display:inline-block;
+	padding:4px 4px 0px 4px;
+	
+}
+.alltoplinks{  
+	text-decoration:none;
+    font-family:tahoma;
+	font-size:12px;
+	text-align:bottom;
+	}	
+.toprightcornerdata{
+	list-style-type:none;
+	margin-left:60%;
+}	
+.fl{float:left;}
+.fr{float:right;}
+.clr{clear:both;}
+ .ul2{margin-left:15%;
+			margin-top:0%;	
+			}
+.mainlinks{ 
+			display:inline-block;
+			text-decoration:none;
+			padding:3px 3px 3px 2px;
+			font-family:arial;
+			font-size:15px;
+			text-align:top;
+			
+			color:black;
+			/*position:relative;*/
+		   }
+
+		   .dropbtn{
+	      position:relative;
+		  display:inline-block;
+}
+		 .whenbarcelonahoveritsdropdownmenu{
+			 display:none;
+			 position:absolute;
+		/*	 background-color:#1B4F72;*/
+			 color:black;
+			 z-index:1;
+			 min-width:150px;
+			 padding:23px 10px 10px 6px;
+			 
+		 }
+		 .whenbarcelonahover:hover{
+			 display:block;
+			 color:white;
+			 background-color:#1B4F72;
+		 }
+		 
+		 
+.dropbtn:hover .whenbarcelonahoveritsdropdownmenu{display:block;		 
+}
+		 
+		 
+.whenbarcelonahoveritsdropdownmenu a{
+	text-decoration:none;
+	color:white;
+	background-color:#1B4F72;
+	font-size:16px;
+	text-align:left;
+	display:block;
+	padding:1px 6px;
+	
+}
+.whenbarcelonahoveritsdropdownmenu a:hover{
+	color:white;
+	text-decoration:none;
+}
+.whenactivitieshoveritsdropdownmenu a:hover{
+	color:white;
+	text-decoration:none;
+}
+
+
+.dropbtn2{
+	      position:relative;
+		  display:inline-block;
+}
+		 .whenactivitieshoveritsdropdownmenu{
+			 display:none;
+			 position:absolute;
+		/*	 background-color:#1B4F72;*/
+			 color:black;
+			 z-index:1;
+			 min-width:150px;
+			 padding:23px 10px 10px 6px;
+			 
+		 }
+		 .whenactivitieshover:hover{
+			 display:block;
+			 color:white;
+			 background-color:#1B4F72;
+		 }
+		 
+		 
+.dropbtn2:hover .whenactivitieshoveritsdropdownmenu{display:block;		 
+}
+		 
+		 
+.whenactivitieshoveritsdropdownmenu a{
+	text-decoration:none;
+	color:white;
+	background-color:#1B4F72;
+	font-size:16px;
+	text-align:left;
+	display:block;
+	padding:1px 6px;
+	
+}
+		 
+.contactnowbtn{color:white;
+ float:right;
+ margin-right:2%;
+ margin-top:0.5%;
+margin-bottom:1.5%; 
+position:relative;
+ border:1px solid gray; 
+ padding:0.5%;
+ display:block;
+ background-color:#1B4F72;
+}
+		 
+	.contactnowbtn:hover{border:1px solid white;}	 
+	.left1{
+		margin-left:5%;
+		width:22.5%;
+		
+	}
+	
+	
+	
+	
+	
+	
+		 
+		 
+		 
+		 
+		 
